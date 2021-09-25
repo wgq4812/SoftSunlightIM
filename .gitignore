@@ -3,3 +3,7 @@
 ################################################################################
 
 /MyQQ/MyQQ/bin/Debug
+/.vs/MyQQ/v16
+/MyQQ/obj/Debug
+/MyQQ.WebApi/obj
+/MyQQ.WebApi.Models/obj
