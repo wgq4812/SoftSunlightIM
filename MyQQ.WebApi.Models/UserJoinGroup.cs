@@ -1,11 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace MyQQ.WebApi.Models
 {
     /// <summary>
-    /// 用户登录日志
+    /// 用户加入的群组
     /// </summary>
-    public class UserLoginLog
+    public class UserJoinGroup
     {
         /// <summary>
         /// 主键Id
@@ -16,17 +18,13 @@ namespace MyQQ.WebApi.Models
         /// </summary>
         public string Account { get; set; }
         /// <summary>
-        /// 登录IP
+        /// 群组账号
         /// </summary>
-        public string LoginIP { get; set; }
+        public string GroupAccount { get; set; }
         /// <summary>
-        /// 登录地址
+        /// 群组名称
         /// </summary>
-        public string LoginAddress { get; set; }
-        /// <summary>
-        /// 登录设备
-        /// </summary>
-        public int LoginDevice { get; set; }
+        public string GroupName { get; set; }
         /// <summary>
         /// 创建时间
         /// </summary>
