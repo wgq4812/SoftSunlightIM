@@ -7,3 +7,6 @@
 /MyQQ/obj/Debug
 /MyQQ.WebApi/obj
 /MyQQ.WebApi.Models/obj
+/MyQQ.TcpService/bin/Debug/net5.0
+/MyQQ.TcpService/obj
+/MyQQ/bin/Debug
