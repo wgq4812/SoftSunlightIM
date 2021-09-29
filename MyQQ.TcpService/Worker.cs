@@ -24,6 +24,8 @@ namespace MyQQ.TcpService
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 try
                 {
+                    MessageHandler messageHandler = new MessageHandler();
+                    TcpSocketServer.OnMessage += messageHandler.Process;
                     TcpSocketServer.Start();
                 }
                 catch (Exception ex)

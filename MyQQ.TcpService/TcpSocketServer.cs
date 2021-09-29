@@ -8,6 +8,7 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MyQQ.TcpService
@@ -22,13 +23,15 @@ namespace MyQQ.TcpService
         /// </summary>
         private static TcpListener tcpListener = null;
 
+        /// <summary>
+        /// 客户端集合
+        /// </summary>
         private static List<TcpClient> clients { get; set; } = new List<TcpClient>();
 
         /// <summary>
         /// 消息处理事件
         /// </summary>
-
-        public static Action<Message> OnMessage;
+        public static Action<string> OnMessage;
 
         /// <summary>
         /// 启动socket服务
@@ -38,7 +41,7 @@ namespace MyQQ.TcpService
         {
             if (tcpListener == null)
             {
-                tcpListener = new TcpListener(IPAddress.Parse("0.0.0.0"), 7777);
+                tcpListener = new TcpListener(IPAddress.Parse("127.0.0.1"), 7777);
             }
             tcpListener.Start();
             while (true)
@@ -46,45 +49,66 @@ namespace MyQQ.TcpService
                 try
                 {
                     Task<TcpClient> clientTask = tcpListener.AcceptTcpClientAsync();
-                    while (true)
+                    //数据收发
+                    TcpClient tcpClient = clientTask.Result;
+                    if (!clients.Contains(tcpClient))
                     {
-                        //数据收发
-                        TcpClient tcpClient = clientTask.Result;
                         clients.Add(tcpClient);
-                        try
+                        Task.Run(() =>
                         {
-                            NetworkStream networkStream = tcpClient.GetStream();
-                            MemoryStream memoryStream = new MemoryStream();
-                            int recvTotals = 0;
-                            while (tcpClient.Available > 0)
-                            {
-                                byte[] buffer = new byte[512];
-                                int realLength = networkStream.Read(buffer, 0, buffer.Length);
-                                memoryStream.Write(buffer, recvTotals, realLength);
-                                recvTotals += realLength;
-                            }
-                            string content = Encoding.UTF8.GetString(memoryStream.ToArray());
-                            if (memoryStream != null)
-                            {
-                                memoryStream.Close();
-                                memoryStream.Dispose();
-                                memoryStream = null;
-                            }
-                            Message message = JsonSerializer.Deserialize<Message>(content);
-                            OnMessage?.Invoke(message);
+                            ReceiveData(tcpClient);
+                        });
+                    }
+                }
+                catch (Exception ex)
+                {
+                    //输出日志，跳出循环
+                    break;
+                }
+            }
+        }
+
+        /// <summary>
+        /// 接收消息
+        /// </summary>
+        /// <param name="tcpClient"></param>
+        private static void ReceiveData(TcpClient tcpClient)
+        {
+            while (true)
+            {
+                try
+                {
+                    NetworkStream networkStream = tcpClient.GetStream();
+                    MemoryStream memoryStream = new MemoryStream();
+                    int recvTotals = 0;
+                    while (tcpClient.Available > 0)
+                    {
+                        byte[] buffer = new byte[512];
+                        int realLength = networkStream.Read(buffer, 0, buffer.Length);
+                        memoryStream.Write(buffer, 0, realLength);
+                        recvTotals += realLength;
+                    }
+                    if (recvTotals > 0)
+                    {
+                        string content = Encoding.UTF8.GetString(memoryStream.ToArray());
+                        if (memoryStream != null)
+                        {
+                            memoryStream.Close();
+                            memoryStream.Dispose();
+                            memoryStream = null;
                         }
-                        catch (SocketException ex)
+                        if (!string.IsNullOrEmpty(content))
                         {
-                            clients.Remove(tcpClient);
-                            //输出日志，跳出循环
-                            break;
-                        }
-                        catch (Exception ex)
-                        {
-                            //输出日志，跳出循环
-                            break;
+                            OnMessage?.Invoke(content);
                         }
                     }
+                    Thread.Sleep(5000);
+                }
+                catch (SocketException ex)
+                {
+                    clients.Remove(tcpClient);
+                    //输出日志，跳出循环
+                    break;
                 }
                 catch (Exception ex)
                 {
