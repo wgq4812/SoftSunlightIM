@@ -1,0 +1,9 @@
+D:\work.git\MyQQ\MyQQ\bin\Debug\MyQQ.exe.config
+D:\work.git\MyQQ\MyQQ\bin\Debug\MyQQ.exe
+D:\work.git\MyQQ\MyQQ\bin\Debug\MyQQ.pdb
+D:\work.git\MyQQ\MyQQ\obj\Debug\MyQQ.Properties.Resources.resources
+D:\work.git\MyQQ\MyQQ\obj\Debug\MyQQ.csproj.GenerateResource.cache
+D:\work.git\MyQQ\MyQQ\obj\Debug\MyQQ.csproj.CoreCompileInputs.cache
+D:\work.git\MyQQ\MyQQ\obj\Debug\MyQQ.exe
+D:\work.git\MyQQ\MyQQ\obj\Debug\MyQQ.pdb
+D:\work.git\MyQQ\MyQQ\obj\Debug\MyQQ.Form1.resources

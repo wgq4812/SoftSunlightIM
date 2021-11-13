@@ -1,0 +1,9 @@
+D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\MyQQ.exe.config
+D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\MyQQ.exe
+D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\MyQQ.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM\obj\Debug\MyQQ.Form1.resources
+D:\work.git\SoftSunlightIM\SoftSunlightIM\obj\Debug\MyQQ.Properties.Resources.resources
+D:\work.git\SoftSunlightIM\SoftSunlightIM\obj\Debug\SoftSunlightIM.csproj.GenerateResource.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM\obj\Debug\SoftSunlightIM.csproj.CoreCompileInputs.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM\obj\Debug\MyQQ.exe
+D:\work.git\SoftSunlightIM\SoftSunlightIM\obj\Debug\MyQQ.pdb
