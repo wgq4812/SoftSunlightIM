@@ -7,7 +7,9 @@ D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\ref\SoftSunlightIM.WebApi.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.IService.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.Models.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.IService.pdb
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.Models.pdb
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.csprojAssemblyReference.cache
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.GeneratedMSBuildEditorConfig.editorconfig

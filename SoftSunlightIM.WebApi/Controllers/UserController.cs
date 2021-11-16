@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SoftSunlightIM.WebApi.IService;
+using SoftSunlightIM.WebApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +16,25 @@ namespace SoftSunlightIM.WebApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        public IActionResult Register()
-        {
+        private IUserService userService;
 
+        public UserController(IUserService userService)
+        {
+            this.userService = userService;
+        }
+
+        /// <summary>
+        /// 用户注册
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public IActionResult Register(User user)
+        {
+            string errMsg = userService.Register(user);
             return new JsonResult(new
             {
-
+                Success = string.IsNullOrEmpty(errMsg),
+                ErrorMsg = errMsg
             });
         }
     }
