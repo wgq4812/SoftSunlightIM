@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyQQ.WebApi.Controllers
+namespace SoftSunlightIM.WebApi.Controllers
 {
     /// <summary>
     /// 用户管理控制器
@@ -14,5 +14,13 @@ namespace MyQQ.WebApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        public IActionResult Register()
+        {
+
+            return new JsonResult(new
+            {
+
+            });
+        }
     }
 }

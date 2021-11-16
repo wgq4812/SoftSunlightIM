@@ -1,0 +1,17 @@
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.deps.json
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Models.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Models.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.csprojAssemblyReference.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.AssemblyInfoInputs.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.AssemblyInfo.cs
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.csproj.CoreCompileInputs.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.csproj.CopyComplete
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.Service\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Service.pdb

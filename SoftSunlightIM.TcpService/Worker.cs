@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MyQQ.TcpService
+namespace SoftSunlightIM.TcpService
 {
     public class Worker : BackgroundService
     {

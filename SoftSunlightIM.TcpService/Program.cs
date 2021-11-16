@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyQQ.TcpService
+namespace SoftSunlightIM.TcpService
 {
     public class Program
     {

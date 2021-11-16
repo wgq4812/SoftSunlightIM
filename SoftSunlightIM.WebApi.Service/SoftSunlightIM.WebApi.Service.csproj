@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoftSunlightIM.WebApi.IDao\SoftSunlightIM.WebApi.IDao.csproj" />
+    <ProjectReference Include="..\SoftSunlightIM.WebApi.IService\SoftSunlightIM.WebApi.IService.csproj" />
+  </ItemGroup>
+
+</Project>

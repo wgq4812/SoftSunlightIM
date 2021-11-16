@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SoftSunlightIM.WebApi.IDao/1.0.0": {
+        "dependencies": {
+          "SoftSunlightIM.WebApi.Models": "1.0.0"
+        },
+        "runtime": {
+          "SoftSunlightIM.WebApi.IDao.dll": {}
+        }
+      },
+      "SoftSunlightIM.WebApi.Models/1.0.0": {
+        "runtime": {
+          "SoftSunlightIM.WebApi.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SoftSunlightIM.WebApi.IDao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoftSunlightIM.WebApi.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

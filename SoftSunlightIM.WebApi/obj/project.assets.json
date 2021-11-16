@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "SoftSunlightIM.WebApi.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SoftSunlightIM.WebApi.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SoftSunlightIM.WebApi.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SoftSunlightIM.WebApi.Models/1.0.0": {
+      "type": "project",
+      "path": "../SoftSunlightIM.WebApi.Models/SoftSunlightIM.WebApi.Models.csproj",
+      "msbuildProject": "../SoftSunlightIM.WebApi.Models/SoftSunlightIM.WebApi.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "SoftSunlightIM.WebApi.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Admin\\.nuget\\packages\\": {}
@@ -34,7 +53,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.WebApi.Models\\SoftSunlightIM.WebApi.Models.csproj": {
+              "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.WebApi.Models\\SoftSunlightIM.WebApi.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

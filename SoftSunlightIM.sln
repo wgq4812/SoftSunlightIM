@@ -11,6 +11,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftSunlightIM.WebApi.Model
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftSunlightIM.TcpService", "SoftSunlightIM.TcpService\SoftSunlightIM.TcpService.csproj", "{A453F3D9-00E1-4E14-BBC6-B1FCBC438B3C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftSunlightIM.TcpService.Model", "SoftSunlightIM.TcpService.Model\SoftSunlightIM.TcpService.Model.csproj", "{AE262741-AC40-4D13-BE1B-33C089BA44E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSunlightIM.Model", "SoftSunlightIM.Model\SoftSunlightIM.Model.csproj", "{29AF81EF-163F-4CD5-BB40-2A9D018E9826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSunlightIM.WebApi.Service", "SoftSunlightIM.WebApi.Service\SoftSunlightIM.WebApi.Service.csproj", "{BFB39A7C-AE07-49DE-B355-ACAFC0D6C0C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSunlightIM.WebApi.IService", "SoftSunlightIM.WebApi.IService\SoftSunlightIM.WebApi.IService.csproj", "{73C6203E-4C79-4B4B-98DE-AA8809345524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSunlightIM.WebApi.IDao", "SoftSunlightIM.WebApi.IDao\SoftSunlightIM.WebApi.IDao.csproj", "{405B76B0-1D09-4891-89FE-EDBE7C35B6F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSunlightIM.WebApi.Dao", "SoftSunlightIM.WebApi.Dao\SoftSunlightIM.WebApi.Dao.csproj", "{9BCA5203-47F1-4F78-BB93-ABEAEB58FCEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +45,30 @@ Global
 		{A453F3D9-00E1-4E14-BBC6-B1FCBC438B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A453F3D9-00E1-4E14-BBC6-B1FCBC438B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A453F3D9-00E1-4E14-BBC6-B1FCBC438B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE262741-AC40-4D13-BE1B-33C089BA44E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE262741-AC40-4D13-BE1B-33C089BA44E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE262741-AC40-4D13-BE1B-33C089BA44E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE262741-AC40-4D13-BE1B-33C089BA44E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AF81EF-163F-4CD5-BB40-2A9D018E9826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AF81EF-163F-4CD5-BB40-2A9D018E9826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AF81EF-163F-4CD5-BB40-2A9D018E9826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AF81EF-163F-4CD5-BB40-2A9D018E9826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB39A7C-AE07-49DE-B355-ACAFC0D6C0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB39A7C-AE07-49DE-B355-ACAFC0D6C0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB39A7C-AE07-49DE-B355-ACAFC0D6C0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB39A7C-AE07-49DE-B355-ACAFC0D6C0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C6203E-4C79-4B4B-98DE-AA8809345524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C6203E-4C79-4B4B-98DE-AA8809345524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C6203E-4C79-4B4B-98DE-AA8809345524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C6203E-4C79-4B4B-98DE-AA8809345524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405B76B0-1D09-4891-89FE-EDBE7C35B6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405B76B0-1D09-4891-89FE-EDBE7C35B6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405B76B0-1D09-4891-89FE-EDBE7C35B6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405B76B0-1D09-4891-89FE-EDBE7C35B6F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCA5203-47F1-4F78-BB93-ABEAEB58FCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCA5203-47F1-4F78-BB93-ABEAEB58FCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCA5203-47F1-4F78-BB93-ABEAEB58FCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCA5203-47F1-4F78-BB93-ABEAEB58FCEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

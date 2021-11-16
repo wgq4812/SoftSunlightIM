@@ -34,9 +34,6 @@ D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\Microsoft.
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\System.Diagnostics.EventLog.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
-D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\MyQQ.exe
-D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\MyQQ.pdb
-D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\MyQQ.exe.config
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\obj\Debug\net5.0\SoftSunlightIM.TcpService.csprojAssemblyReference.cache
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\obj\Debug\net5.0\SoftSunlightIM.TcpService.GeneratedMSBuildEditorConfig.editorconfig
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\obj\Debug\net5.0\SoftSunlightIM.TcpService.AssemblyInfoInputs.cache

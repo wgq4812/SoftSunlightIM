@@ -7,6 +7,9 @@ D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\ref\SoftSunlightIM.WebApi.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.Models.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\bin\Debug\net5.0\SoftSunlightIM.WebApi.Models.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.csprojAssemblyReference.cache
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.AssemblyInfoInputs.cache
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.AssemblyInfo.cs
@@ -16,6 +19,7 @@ D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\staticwebasset
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\staticwebassets\SoftSunlightIM.WebApi.StaticWebAssets.xml
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\scopedcss\bundle\SoftSunlightIM.WebApi.styles.css
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.RazorTargetAssemblyInfo.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.csproj.CopyComplete
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\ref\SoftSunlightIM.WebApi.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi\obj\Debug\net5.0\SoftSunlightIM.WebApi.pdb

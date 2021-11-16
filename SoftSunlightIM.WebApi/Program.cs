@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyQQ.WebApi
+namespace SoftSunlightIM.WebApi
 {
     public class Program
     {

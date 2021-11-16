@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-MyQQ.TcpService-2C37311F-8C0A-4F21-B0DF-D48DCBF372B6")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-SoftSunlightIM.TcpService-2C37311F-8C0A-4F21-B0DF-D48DCBF372B6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoftSunlightIM.TcpService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

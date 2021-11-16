@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyQQ.WebApi.Models
+namespace SoftSunlightIM.WebApi.Models
 {
     /// <summary>
     /// 用户

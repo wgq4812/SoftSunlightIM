@@ -448,13 +448,14 @@
           }
         }
       },
-      "SoftSunlightIM/1.0.0": {
+      "SoftSunlightIM.TcpService.Model/1.0.0": {
         "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/SoftSunlightIM.dll": {}
+          "bin/placeholder/SoftSunlightIM.TcpService.Model.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SoftSunlightIM.dll": {}
+          "bin/placeholder/SoftSunlightIM.TcpService.Model.dll": {}
         }
       }
     }
@@ -1172,16 +1173,16 @@
         "version.txt"
       ]
     },
-    "SoftSunlightIM/1.0.0": {
+    "SoftSunlightIM.TcpService.Model/1.0.0": {
       "type": "project",
-      "path": "../SoftSunlightIM/SoftSunlightIM.csproj",
-      "msbuildProject": "../SoftSunlightIM/SoftSunlightIM.csproj"
+      "path": "../SoftSunlightIM.Model/SoftSunlightIM.TcpService.Model.csproj",
+      "msbuildProject": "../SoftSunlightIM.Model/SoftSunlightIM.TcpService.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.Extensions.Hosting >= 5.0.0",
-      "SoftSunlightIM >= 1.0.0"
+      "SoftSunlightIM.TcpService.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1212,8 +1213,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM\\SoftSunlightIM.csproj": {
-              "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM\\SoftSunlightIM.csproj"
+            "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.TcpService.Model.csproj": {
+              "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.TcpService.Model.csproj"
             }
           }
         }

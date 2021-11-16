@@ -1,0 +1,10 @@
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\bin\Debug\netcoreapp3.1\SoftSunlightIM.Model.deps.json
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\bin\Debug\netcoreapp3.1\SoftSunlightIM.Model.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\bin\Debug\netcoreapp3.1\SoftSunlightIM.Model.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\netcoreapp3.1\SoftSunlightIM.Model.csprojAssemblyReference.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\netcoreapp3.1\SoftSunlightIM.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\netcoreapp3.1\SoftSunlightIM.Model.AssemblyInfoInputs.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\netcoreapp3.1\SoftSunlightIM.Model.AssemblyInfo.cs
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\netcoreapp3.1\SoftSunlightIM.Model.csproj.CoreCompileInputs.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\netcoreapp3.1\SoftSunlightIM.Model.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\netcoreapp3.1\SoftSunlightIM.Model.pdb

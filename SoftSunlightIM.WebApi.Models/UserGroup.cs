@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyQQ.WebApi.Models
+namespace SoftSunlightIM.WebApi.Models
 {
     /// <summary>
     /// 用户群组

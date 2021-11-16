@@ -11,7 +11,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MyQQ.TcpService
+namespace SoftSunlightIM.TcpService
 {
     /// <summary>
     /// TCP服务端

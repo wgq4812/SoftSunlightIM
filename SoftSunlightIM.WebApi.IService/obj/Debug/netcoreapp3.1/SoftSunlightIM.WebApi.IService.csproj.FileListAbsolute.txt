@@ -1,0 +1,13 @@
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.deps.json
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Models.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Models.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.csprojAssemblyReference.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.GeneratedMSBuildEditorConfig.editorconfig
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.AssemblyInfoInputs.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.AssemblyInfo.cs
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.csproj.CoreCompileInputs.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.csproj.CopyComplete
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IService\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IService.pdb

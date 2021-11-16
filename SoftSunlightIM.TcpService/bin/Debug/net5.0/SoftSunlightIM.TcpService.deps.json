@@ -9,7 +9,7 @@
       "SoftSunlightIM.TcpService/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "5.0.0",
-          "SoftSunlightIM": "1.0.0"
+          "SoftSunlightIM.TcpService.Model": "1.0.0"
         },
         "runtime": {
           "SoftSunlightIM.TcpService.dll": {}
@@ -380,12 +380,7 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "System.Security.Principal.Windows/5.0.0": {},
-      "SoftSunlightIM/1.0.0": {
-        "runtime": {
-          "MyQQ.exe": {}
-        }
-      }
+      "System.Security.Principal.Windows/5.0.0": {}
     }
   },
   "libraries": {
@@ -603,11 +598,6 @@
       "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
-    },
-    "SoftSunlightIM/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

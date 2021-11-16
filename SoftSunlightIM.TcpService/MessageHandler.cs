@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyQQ.TcpService
+namespace SoftSunlightIM.TcpService
 {
     /// <summary>
     /// socket 通信消息处理类

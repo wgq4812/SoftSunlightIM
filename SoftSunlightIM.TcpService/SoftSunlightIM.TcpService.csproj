@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk.Worker">
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>dotnet-MyQQ.TcpService-2C37311F-8C0A-4F21-B0DF-D48DCBF372B6</UserSecretsId>
+    <UserSecretsId>dotnet-SoftSunlightIM.TcpService-2C37311F-8C0A-4F21-B0DF-D48DCBF372B6</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SoftSunlightIM\SoftSunlightIM.csproj" />
+    <ProjectReference Include="..\SoftSunlightIM.Model\SoftSunlightIM.TcpService.Model.csproj" />
   </ItemGroup>
 </Project>
