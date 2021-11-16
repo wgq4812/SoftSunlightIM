@@ -9,7 +9,7 @@ namespace SoftSunlightIM.WebApi.Dao
 {
     public class BaseDao<T> : IBaseDao<T> where T : class
     {
-        private IMDbContext dbContext;
+        private IMDbContext dbContext; 
 
         public BaseDao(IMDbContext dbContext)
         {

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "SoftSunlightIM.WebApi.IService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SoftSunlightIM.WebApi.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SoftSunlightIM.WebApi.IService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SoftSunlightIM.WebApi.IService.dll": {}
+        }
+      },
       "SoftSunlightIM.WebApi.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "SoftSunlightIM.WebApi.IService/1.0.0": {
+      "type": "project",
+      "path": "../SoftSunlightIM.WebApi.IService/SoftSunlightIM.WebApi.IService.csproj",
+      "msbuildProject": "../SoftSunlightIM.WebApi.IService/SoftSunlightIM.WebApi.IService.csproj"
+    },
     "SoftSunlightIM.WebApi.Models/1.0.0": {
       "type": "project",
       "path": "../SoftSunlightIM.WebApi.Models/SoftSunlightIM.WebApi.Models.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "SoftSunlightIM.WebApi.IService >= 1.0.0",
       "SoftSunlightIM.WebApi.Models >= 1.0.0"
     ]
   },
@@ -54,6 +73,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.WebApi.IService\\SoftSunlightIM.WebApi.IService.csproj": {
+              "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.WebApi.IService\\SoftSunlightIM.WebApi.IService.csproj"
+            },
             "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.WebApi.Models\\SoftSunlightIM.WebApi.Models.csproj": {
               "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.WebApi.Models\\SoftSunlightIM.WebApi.Models.csproj"
             }

@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "SoftSunlightIM.WebApi/1.0.0": {
         "dependencies": {
+          "SoftSunlightIM.WebApi.IService": "1.0.0",
           "SoftSunlightIM.WebApi.Models": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -323,6 +324,17 @@
         },
         "compile": {
           "SoftSunlightIM.WebApi.dll": {}
+        }
+      },
+      "SoftSunlightIM.WebApi.IService/1.0.0": {
+        "dependencies": {
+          "SoftSunlightIM.WebApi.Models": "1.0.0"
+        },
+        "runtime": {
+          "SoftSunlightIM.WebApi.IService.dll": {}
+        },
+        "compile": {
+          "SoftSunlightIM.WebApi.IService.dll": {}
         }
       },
       "SoftSunlightIM.WebApi.Models/1.0.0": {
@@ -2035,6 +2047,11 @@
   },
   "libraries": {
     "SoftSunlightIM.WebApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoftSunlightIM.WebApi.IService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
