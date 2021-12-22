@@ -10,6 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SoftSunlight.Tool_core\SoftSunlight.Tool_core.csproj" />
+    <ProjectReference Include="..\SoftSunlightIM.Model\SoftSunlightIM.Model.csproj" />
     <ProjectReference Include="..\SoftSunlightIM.Model\SoftSunlightIM.TcpService.Model.csproj" />
   </ItemGroup>
 </Project>

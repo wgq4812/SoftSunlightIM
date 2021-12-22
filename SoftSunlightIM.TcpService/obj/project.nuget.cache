@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R05H1j6Sf26Hzzi+fSLF4J/3G6XsXDTNy5dO8003uWXjdQccEYKebUkEuklEVOMKDwklYh6fzUvQNdh/yVuuBQ==",
+  "dgSpecHash": "74aitqFdtg2oI1r8SxDiE8cpQfQfbBoI0ZdW44IpGHMQfv7NAafxrgJtqL0A/bvcLVabcz3YJelPdKUMv7CyLQ==",
   "success": true,
   "projectFilePath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.TcpService\\SoftSunlightIM.TcpService.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,8 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0\\system.diagnostics.eventlog.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiResponse.cs" />
     <Compile Include="ClientSocket.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -83,6 +84,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SoftSunlight.Tool\SoftSunlight.Tool.csproj">
+      <Project>{dc1a1afa-7ff2-49e6-8603-304cee7efffd}</Project>
+      <Name>SoftSunlight.Tool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SoftSunlightIM.Model\SoftSunlightIM.Model.csproj">
+      <Project>{29af81ef-163f-4cd5-bb40-2a9d018e9826}</Project>
+      <Name>SoftSunlightIM.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

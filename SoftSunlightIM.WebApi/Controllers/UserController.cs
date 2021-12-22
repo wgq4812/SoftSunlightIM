@@ -12,7 +12,7 @@ namespace SoftSunlightIM.WebApi.Controllers
     /// <summary>
     /// 用户管理控制器
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("[controller]/[action]")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -37,5 +37,6 @@ namespace SoftSunlightIM.WebApi.Controllers
                 ErrorMsg = errMsg
             });
         }
+
     }
 }

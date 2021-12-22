@@ -8,11 +8,11 @@ namespace SoftSunlightIM.WebApi.Dao
 {
     public class IMDbContext : DbContext
     {
-        public DbSet<User> UserDbSet { get; set; }
+        public DbSet<User> User { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Test");
+            optionsBuilder.UseMySQL(@"Server=localhost;port=3306;database=softsunlightim;uid=root;pwd=123456;charset=utf8");
         }
 
     }

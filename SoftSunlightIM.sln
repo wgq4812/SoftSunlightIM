@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftSunlightIM.WebApi.IDao"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftSunlightIM.WebApi.Dao", "SoftSunlightIM.WebApi.Dao\SoftSunlightIM.WebApi.Dao.csproj", "{9BCA5203-47F1-4F78-BB93-ABEAEB58FCEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSunlight.Tool", "SoftSunlight.Tool\SoftSunlight.Tool.csproj", "{DC1A1AFA-7FF2-49E6-8603-304CEE7EFFFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftSunlight.Tool", "SoftSunlight.Tool\SoftSunlight.Tool.csproj", "{DC1A1AFA-7FF2-49E6-8603-304CEE7EFFFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftSunlight.Tool_core", "SoftSunlight.Tool_core\SoftSunlight.Tool_core.csproj", "{E7F9C681-EC43-48BE-9316-B4FB6F49F249}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{DC1A1AFA-7FF2-49E6-8603-304CEE7EFFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC1A1AFA-7FF2-49E6-8603-304CEE7EFFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC1A1AFA-7FF2-49E6-8603-304CEE7EFFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F9C681-EC43-48BE-9316-B4FB6F49F249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F9C681-EC43-48BE-9316-B4FB6F49F249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F9C681-EC43-48BE-9316-B4FB6F49F249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F9C681-EC43-48BE-9316-B4FB6F49F249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

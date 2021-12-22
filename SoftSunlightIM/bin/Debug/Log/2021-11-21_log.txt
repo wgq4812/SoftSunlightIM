@@ -1,0 +1,71 @@
+2021-11-21 19:24:47
+未将对象引用设置到对象的实例。
+未将对象引用设置到对象的实例。,SoftSunlight.Tool,   在 SoftSunlight.Tool.WebUtils.BuildFormBody(Dictionary`2 requestParam)
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 19:26:42
+未将对象引用设置到对象的实例。
+未将对象引用设置到对象的实例。,SoftSunlight.Tool,   在 SoftSunlight.Tool.WebUtils.BuildFormBody(Dictionary`2 requestParam)
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 19:45:40
+远程服务器返回错误: (404) 未找到。
+远程服务器返回错误: (404) 未找到。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 19:45:51
+远程服务器返回错误: (404) 未找到。
+远程服务器返回错误: (404) 未找到。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 19:47:57
+远程服务器返回错误: (404) 未找到。
+远程服务器返回错误: (404) 未找到。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 19:51:53
+远程服务器返回错误: (404) 未找到。
+远程服务器返回错误: (404) 未找到。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 19:53:14
+请求被中止: 连接被意外关闭。
+请求被中止: 连接被意外关闭。,System,   在 System.Net.ConnectStream.InternalWrite(Boolean async, Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 System.Net.ConnectStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 20:59:55
+远程服务器返回错误: (404) 未找到。
+远程服务器返回错误: (404) 未找到。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 21:02:53
+远程服务器返回错误: (404) 未找到。
+远程服务器返回错误: (404) 未找到。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 21:03:42
+远程服务器返回错误: (404) 未找到。
+远程服务器返回错误: (404) 未找到。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 21:04:29
+远程服务器返回错误: (500) 内部服务器错误。
+远程服务器返回错误: (500) 内部服务器错误。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+2021-11-21 21:15:21
+基础连接已经关闭: 接收时发生错误。
+基础连接已经关闭: 接收时发生错误。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+
+无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。,System,   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+
+远程主机强迫关闭了一个现有的连接。,System,   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+2021-11-21 21:17:35
+基础连接已经关闭: 接收时发生错误。
+基础连接已经关闭: 接收时发生错误。,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)
+
+无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。,System,   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+
+远程主机强迫关闭了一个现有的连接。,System,   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+2021-11-21 21:21:05
+操作超时
+操作超时,System,   在 System.Net.HttpWebRequest.GetResponse()
+   在 SoftSunlight.Tool.WebUtils.DoPost(String requestUrl, Dictionary`2 requestParam, Dictionary`2 headerParam)

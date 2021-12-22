@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
-using System.Text.Json;
 
 namespace SoftSunlight.Tool
 {
@@ -30,7 +30,7 @@ namespace SoftSunlight.Tool
         /// <returns></returns>
         public string DoGet(string requestUrl, Dictionary<string, string> requestParam)
         {
-            return DoGet(requestUrl, null, null);
+            return DoGet(requestUrl, requestParam, null);
         }
 
         /// <summary>
@@ -101,7 +101,7 @@ namespace SoftSunlight.Tool
         /// <returns></returns>
         public string DoPost(string requestUrl, Dictionary<string, string> requestParam)
         {
-            return DoPost(requestUrl, null, null);
+            return DoPost(requestUrl, requestParam, null);
         }
 
         /// <summary>
@@ -122,20 +122,21 @@ namespace SoftSunlight.Tool
                 httpWebRequest = (HttpWebRequest)WebRequest.Create(requestUrl);
                 httpWebRequest.Method = "POST";
                 BuildRequestHeader(httpWebRequest, headerParam);
-                string postDataString = BuildFormBody(headerParam);
+                string postDataString = BuildFormBody(requestParam);
                 if (headerParam != null && headerParam.Count > 0)
                 {
                     foreach (string key in headerParam.Keys)
                     {
                         if (key.Equals("content-type", StringComparison.CurrentCultureIgnoreCase) && headerParam[key].Contains("application/json"))
                         {
-                            postDataString = JsonSerializer.Serialize(requestParam);
+                            postDataString = JsonConvert.SerializeObject(requestParam);
                         }
                     }
                 }
                 Stream stream = httpWebRequest.GetRequestStream();
                 byte[] postBytes = Encoding.UTF8.GetBytes(postDataString);
                 stream.Write(postBytes, 0, postBytes.Length);
+                httpWebResponse = (HttpWebResponse)httpWebRequest.GetResponse();
                 sr = new StreamReader(httpWebResponse.GetResponseStream(), Encoding.GetEncoding(httpWebResponse.CharacterSet));
                 responseText = sr.ReadToEnd();
             }
@@ -202,11 +203,14 @@ namespace SoftSunlight.Tool
         private string BuildFormBody(Dictionary<string, string> requestParam)
         {
             StringBuilder urlBuilder = new StringBuilder();
-            foreach (string key in requestParam.Keys)
+            if (requestParam != null && requestParam.Count > 0)
             {
-                urlBuilder.Append(key).Append("=").Append(requestParam[key]).Append("&");
+                foreach (string key in requestParam.Keys)
+                {
+                    urlBuilder.Append(key).Append("=").Append(requestParam[key]).Append("&");
+                }
             }
-            return string.Empty;
+            return urlBuilder.ToString();
         }
 
         /// <summary>

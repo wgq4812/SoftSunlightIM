@@ -5,6 +5,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SoftSunlightIM.WebApi.Dao;
+using SoftSunlightIM.WebApi.IDao;
+using SoftSunlightIM.WebApi.IService;
+using SoftSunlightIM.WebApi.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,12 +29,21 @@ namespace SoftSunlightIM.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //services.AddSingleton<IUserService,>();
+            services.AddSingleton<IUserService, UserService>();
+            services.AddSingleton<IUserDao, UserDao>();
+            services.AddSingleton<IMDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            var dbContext = app.ApplicationServices.GetRequiredService<IMDbContext>();
+            if (dbContext != null)
+            {
+                dbContext.Database.EnsureCreated();
+            }
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

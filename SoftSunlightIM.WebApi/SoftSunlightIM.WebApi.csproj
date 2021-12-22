@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SoftSunlightIM.WebApi.Dao\SoftSunlightIM.WebApi.Dao.csproj" />
+    <ProjectReference Include="..\SoftSunlightIM.WebApi.IDao\SoftSunlightIM.WebApi.IDao.csproj" />
     <ProjectReference Include="..\SoftSunlightIM.WebApi.IService\SoftSunlightIM.WebApi.IService.csproj" />
     <ProjectReference Include="..\SoftSunlightIM.WebApi.Models\SoftSunlightIM.WebApi.Models.csproj" />
+    <ProjectReference Include="..\SoftSunlightIM.WebApi.Service\SoftSunlightIM.WebApi.Service.csproj" />
   </ItemGroup>
 
 </Project>

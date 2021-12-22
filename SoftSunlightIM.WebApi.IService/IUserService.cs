@@ -17,5 +17,12 @@ namespace SoftSunlightIM.WebApi.IService
         /// <param name="user"></param>
         /// <returns></returns>
         string Register(User user);
+
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        string Login(User user);
     }
 }

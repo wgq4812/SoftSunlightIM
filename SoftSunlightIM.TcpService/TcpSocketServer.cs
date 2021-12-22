@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoftSunlight.Tool;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -63,6 +64,7 @@ namespace SoftSunlightIM.TcpService
                 catch (Exception ex)
                 {
                     //输出日志，跳出循环
+                    Log.Write("接收客户端连接失败", ex);
                     break;
                 }
             }
@@ -104,15 +106,11 @@ namespace SoftSunlightIM.TcpService
                     }
                     Thread.Sleep(5000);
                 }
-                catch (SocketException ex)
+                catch (Exception ex)
                 {
                     clients.Remove(tcpClient);
                     //输出日志，跳出循环
-                    break;
-                }
-                catch (Exception ex)
-                {
-                    //输出日志，跳出循环
+                    Log.Write("接收数据异常", ex);
                     break;
                 }
             }
