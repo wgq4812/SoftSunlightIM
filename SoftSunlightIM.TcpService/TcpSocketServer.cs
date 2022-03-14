@@ -1,4 +1,6 @@
 ﻿using SoftSunlight.Tool;
+using SoftSunlightIM.TcpService.Handler;
+using SoftSunlightIM.TcpService.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -82,29 +84,52 @@ namespace SoftSunlightIM.TcpService
                 {
                     NetworkStream networkStream = tcpClient.GetStream();
                     MemoryStream memoryStream = new MemoryStream();
-                    int recvTotals = 0;
-                    while (tcpClient.Available > 0)
+                    /*
+                     * 消息格式
+                     * 4字节消息头部长度 + 消息头内容
+                     */
+                    byte[] headerLengthByte = new byte[4];
+                    networkStream.Read(headerLengthByte, 0, headerLengthByte.Length);
+                    int headerLength = BitConverter.ToInt32(headerLengthByte);
+                    byte[] buffer = new byte[256];
+                    int totalReaded = 0;
+                    int readed = 0;
+                    do
                     {
-                        byte[] buffer = new byte[512];
-                        int realLength = networkStream.Read(buffer, 0, buffer.Length);
-                        memoryStream.Write(buffer, 0, realLength);
-                        recvTotals += realLength;
-                    }
-                    if (recvTotals > 0)
+                        readed = networkStream.Read(buffer, 0, buffer.Length);
+                        memoryStream.Write(buffer);
+                        totalReaded += readed;
+                    } while (totalReaded < headerLength);
+                    if (memoryStream != null)
                     {
-                        string content = Encoding.UTF8.GetString(memoryStream.ToArray());
-                        if (memoryStream != null)
+                        memoryStream.Close();
+                        memoryStream.Dispose();
+                        memoryStream = null;
+                    }
+                    string headerJson = Encoding.UTF8.GetString(memoryStream.ToArray());
+                    MessageHeader messageHeader = null;
+                    try
+                    {
+                        messageHeader = System.Text.Json.JsonSerializer.Deserialize<MessageHeader>(headerJson);
+                    }
+                    catch (Exception ex)
+                    {
+
+                    }
+                    if (messageHeader != null)
+                    {
+                        switch (messageHeader.CmdType)
                         {
-                            memoryStream.Close();
-                            memoryStream.Dispose();
-                            memoryStream = null;
-                        }
-                        if (!string.IsNullOrEmpty(content))
-                        {
-                            OnMessage?.Invoke(content);
+                            case CommandTypeEnum.Chat:
+
+                                break;
+                            case CommandTypeEnum.ToServer:
+                                new ToServerMessageHandler().Process(messageHeader, networkStream);
+                                break;
+                            default:
+                                break;
                         }
                     }
-                    Thread.Sleep(5000);
                 }
                 catch (Exception ex)
                 {

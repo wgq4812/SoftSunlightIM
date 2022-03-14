@@ -3,7 +3,9 @@ D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\SoftSunlightIM.exe
 D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\SoftSunlightIM.pdb
 D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\Newtonsoft.Json.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\SoftSunlight.Tool.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\SoftSunlightIM.Model.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\SoftSunlight.Tool.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\SoftSunlightIM.Model.pdb
 D:\work.git\SoftSunlightIM\SoftSunlightIM\bin\Debug\Newtonsoft.Json.xml
 D:\work.git\SoftSunlightIM\SoftSunlightIM\obj\Debug\SoftSunlightIM.csprojAssemblyReference.cache
 D:\work.git\SoftSunlightIM\SoftSunlightIM\obj\Debug\SoftSunlightIM.LoginForm.resources

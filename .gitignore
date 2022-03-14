@@ -16,3 +16,8 @@
 /SoftSunlight.Tool/bin/Debug/net4.5
 /SoftSunlight.Tool_core/bin/Debug/netcoreapp3.1
 /SoftSunlight.Tool_core/obj
+/SoftSunlight.Tool/bin/Debug/netstandard2.0
+/ClassLibrary1
+/SoftSunlightIM.App/obj
+/SoftSunlightIM.Model/bin/Debug
+/SoftSunlightIM.TcpService.Model/bin/Debug/netcoreapp3.1

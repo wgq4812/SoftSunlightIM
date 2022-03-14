@@ -35,6 +35,8 @@ D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\Microsoft.
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\System.Diagnostics.EventLog.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\SoftSunlight.Tool_core.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\SoftSunlightIM.Model.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\SoftSunlightIM.Model.pdb
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\bin\Debug\net5.0\SoftSunlight.Tool_core.pdb
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\obj\Debug\net5.0\SoftSunlightIM.TcpService.csprojAssemblyReference.cache
 D:\work.git\SoftSunlightIM\SoftSunlightIM.TcpService\obj\Debug\net5.0\SoftSunlightIM.TcpService.GeneratedMSBuildEditorConfig.editorconfig

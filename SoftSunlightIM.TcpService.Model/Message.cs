@@ -6,23 +6,11 @@ using System.Threading.Tasks;
 
 namespace SoftSunlightIM.TcpService.Model
 {
-    /// <summary>
-    /// 通讯消息格式
-    /// </summary>
-    [Serializable]
-    public class Message<T>
-    {
-        /// <summary>
-        /// 命令类型
-        /// </summary>
-        public int CommandType { get; set; }
-        /// <summary>
-        /// 消息体
-        /// </summary>
-        public T MessageBody { get; set; }
-    }
 
-    public class MessageContent
+    /// <summary>
+    /// 消息头
+    /// </summary>
+    public class MessageHeader
     {
         /// <summary>
         /// 发送账号
@@ -33,61 +21,24 @@ namespace SoftSunlightIM.TcpService.Model
         /// </summary>
         public string ToAccount { get; set; }
         /// <summary>
-        /// 消息发送类型(1:点对点消息，2:群消息)
+        /// 命令类型
         /// </summary>
-        public int SendType { get; set; }
-        /// <summary>
-        /// 消息类型(1、文本消息，2、文件)
-        /// </summary>
-        public int MessageType { get; set; }
-        /// <summary>
-        /// 要发送的文字消息
-        /// </summary>
-        public string Text { get; set; }
-        /// <summary>
-        /// 发送的文件
-        /// </summary>
-        public FileItem File { get; set; }
+        public CommandTypeEnum CmdType { get; set; }
     }
 
     /// <summary>
-    /// 文件
+    /// 聊天消息类型
     /// </summary>
-    [Serializable]
-    public class FileItem
-    {
-        /// <summary>
-        /// 文件名称
-        /// </summary>
-        public string FileName { get; set; }
-        /// <summary>
-        /// 文件内容
-        /// </summary>
-        public byte[] FileContent { get; set; }
-    }
-
-    public enum SendTypeEnum
-    {
-        /// <summary>
-        /// 点对点消息
-        /// </summary>
-        PointToPoint = 1,
-        /// <summary>
-        /// 群组消息
-        /// </summary>
-        PointToGroup = 2
-    }
-
-    public enum MessageTypeEnum
+    public enum ChatMessageTypeEnum
     {
         /// <summary>
         /// 文本消息
         /// </summary>
-        Text = 1,
+        Text = 101,
         /// <summary>
         /// 文件
         /// </summary>
-        File = 2
+        File = 102
     }
 
     /// <summary>
@@ -100,9 +51,20 @@ namespace SoftSunlightIM.TcpService.Model
         /// </summary>
         Chat = 1,
         /// <summary>
+        /// 发送给服务器
+        /// </summary>
+        ToServer = 2,
+    }
+
+    /// <summary>
+    /// 发送给服务器消息类型
+    /// </summary>
+    public enum ToServerMessageTypeEnum
+    {
+        /// <summary>
         /// 登录
         /// </summary>
-        Login = 2
+        Login = 201,
     }
 
 }

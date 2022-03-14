@@ -3,6 +3,7 @@ D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\bin\Debug\netcoreapp3.1\So
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.pdb
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Models.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\bin\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.Models.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.csprojAssemblyReference.cache
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.GeneratedMSBuildEditorConfig.editorconfig
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.AssemblyInfoInputs.cache
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.AssemblyInfo.cs
@@ -10,4 +11,3 @@ D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\So
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.csproj.CopyComplete
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.dll
 D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.pdb
-D:\work.git\SoftSunlightIM\SoftSunlightIM.WebApi.IDao\obj\Debug\netcoreapp3.1\SoftSunlightIM.WebApi.IDao.csprojAssemblyReference.cache

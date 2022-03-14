@@ -1,0 +1,6 @@
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\bin\Debug\SoftSunlightIM.Model.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\bin\Debug\SoftSunlightIM.Model.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\SoftSunlightIM.Model.csproj.CoreCompileInputs.cache
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\SoftSunlightIM.Model.dll
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\SoftSunlightIM.Model.pdb
+D:\work.git\SoftSunlightIM\SoftSunlightIM.Model\obj\Debug\SoftSunlightIM.Model.csprojAssemblyReference.cache

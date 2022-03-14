@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.Extensions.Hosting": "5.0.0",
           "SoftSunlight.Tool_core": "1.0.0",
+          "SoftSunlightIM.Model": "1.0.0",
           "SoftSunlightIM.TcpService.Model": "1.0.0"
         },
         "runtime": {
@@ -390,6 +391,11 @@
         "runtime": {
           "SoftSunlight.Tool_core.dll": {}
         }
+      },
+      "SoftSunlightIM.Model/1.0.0": {
+        "runtime": {
+          "SoftSunlightIM.Model.dll": {}
+        }
       }
     }
   },
@@ -617,6 +623,11 @@
       "hashPath": "system.text.json.5.0.0.nupkg.sha512"
     },
     "SoftSunlight.Tool_core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoftSunlightIM.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

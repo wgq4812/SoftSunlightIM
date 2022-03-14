@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\搜狗高速下载": {},
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -75,25 +74,28 @@
         "net45": {}
       }
     },
-    "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.TcpService.Model.csproj": {
+    "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.TcpService.Model\\SoftSunlightIM.TcpService.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.TcpService.Model.csproj",
+        "projectUniqueName": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.TcpService.Model\\SoftSunlightIM.TcpService.Model.csproj",
         "projectName": "SoftSunlightIM.TcpService.Model",
-        "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.TcpService.Model.csproj",
+        "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.TcpService.Model\\SoftSunlightIM.TcpService.Model.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\obj\\",
+        "outputPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.TcpService.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\搜狗高速下载": {},
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
@@ -126,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -139,16 +141,19 @@
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.TcpService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\搜狗高速下载": {},
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
@@ -161,8 +166,8 @@
               "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.Model.csproj": {
                 "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.Model.csproj"
               },
-              "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.TcpService.Model.csproj": {
-                "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.Model\\SoftSunlightIM.TcpService.Model.csproj"
+              "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.TcpService.Model\\SoftSunlightIM.TcpService.Model.csproj": {
+                "projectPath": "D:\\work.git\\SoftSunlightIM\\SoftSunlightIM.TcpService.Model\\SoftSunlightIM.TcpService.Model.csproj"
               }
             }
           }
@@ -197,7 +202,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
